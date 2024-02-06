@@ -1,5 +1,4 @@
 import { Routes, Route } from "react-router-dom";
-import React from "react";
 import FormPage from "../pages/FormPage";
 
 import TablePage from "../pages/TablePage";
