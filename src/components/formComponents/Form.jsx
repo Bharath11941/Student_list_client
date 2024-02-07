@@ -38,7 +38,6 @@ const Form = () => {
       setLoading(true)
       const res = await userRegister(values)
       if(res?.status === 200){
-        console.log(res?.data?.message)
         navigate('/')
         toast.success(res?.data?.message);
       }

@@ -159,7 +159,7 @@ function EnhancedTableToolbar({ setSearch }) {
 
     debounceTimer = setTimeout(() => {
       setSearch(value);
-    }, 1000); 
+    }, 500); 
   };
   return (
     <Toolbar
@@ -326,7 +326,7 @@ export default function EnhancedTable() {
   const emptyRows =
     page > 0 ? Math.max(0, (1 + page) * rowsPerPage - rows.length) : 0;
 
-    console.log(emptyRows,"empty")
+
 
     const visibleRows = React.useMemo(() => {
       if (rows && rows.length > 0) {
