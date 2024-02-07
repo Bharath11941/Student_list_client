@@ -1,6 +1,6 @@
 import axios from "axios";
 // const baseURL = "http://localhost:3000"
-const baseURL = "https://students-c5ow.onrender.com"
+const baseURL = "https://server.ridevista.online"
 
 const createAxiosInstance = (baseURL) => {
   const instance = axios.create({
